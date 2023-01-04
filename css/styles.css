@@ -101,7 +101,7 @@
      * color-2(#F06000)
      */
     --color-1: hsla(182, 82%, 38%, 1);
-    --color-2: rgb(240, 0, 0);
+    --color-2: rgb(255, 88, 88);
 
     /* theme color variations
      */
@@ -110,9 +110,9 @@
     --color-1-dark: hsla(182, 82%, 28%, 1);
     --color-1-darker: hsla(182, 82%, 18%, 1);
     --color-2-lighter: hsla(24, 100%, 67%, 1);
-    --color-2-light: rgb(255, 36, 36);
-    --color-2-dark: rgb(189, 0, 0);
-    --color-2-darker: rgb(138, 9, 0);
+    --color-2-light: rgb(255, 146, 146);
+    --color-2-dark: rgb(250, 100, 100);
+    --color-2-darker: rgb(255, 143, 135);
 
     /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
@@ -3659,7 +3659,8 @@ button.btn--pill {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/spyder.png);
+    filter: brightness(0.4);
+    background-image: url(../images/anyabreath.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -4112,8 +4113,8 @@ button.btn--pill {
  *
  * ------------------------------------------------------------------- */
 .s-resume {
-   background-color: white;
-   /* background-image: url(../images/spyder.png);*/
+   background-color: rgb(255, 255, 255);
+   /* background-image: url(../images/anyastand.png);*/
     padding-top: calc(4 * var(--space));
     padding-bottom: var(--vspace-2);
 }
@@ -4477,7 +4478,7 @@ button.btn--pill {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/spyderlast.jpg);
+    background-image: url(../images/anyahand\ \(1\).webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
